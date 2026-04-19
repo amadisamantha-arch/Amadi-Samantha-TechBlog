@@ -14,7 +14,7 @@ const Navbar = () => {
       <div className="max-w-6xl mx-auto px-6 py-5 flex justify-between items-center">
         <div className="flex items-center gap-3">
           <div className="w-9 h-9 bg-indigo-600 rounded-xl flex items-center justify-center text-white font-bold text-xl">
-            S
+            T
           </div>
           <h1 className="text-2xl font-bold text-white">
             TechSphere{" "}
