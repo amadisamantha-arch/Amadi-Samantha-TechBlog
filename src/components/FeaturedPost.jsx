@@ -1,4 +1,3 @@
-import PostCard from "./PostCard";
 
 const FeaturedPost = ({ post }) => {
   return (
