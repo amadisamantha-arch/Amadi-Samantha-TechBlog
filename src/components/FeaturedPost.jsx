@@ -4,7 +4,7 @@ const FeaturedPost = ({ post }) => {
   return (
     <div className="mb-16">
       <h2 className="text-3xl font-bold mb-8 text-gray-900 dark:text-white flex items-center gap-3">
-        🔥 Featured Article
+         Featured Article
       </h2>
 
       <div className="grid md:grid-cols-2 gap-10 items-center bg-white dark:bg-gray-900 rounded-3xl overflow-hidden shadow-xl">

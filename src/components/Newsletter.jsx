@@ -14,10 +14,10 @@ const Newsletter = () => {
   };
 
   return (
-    <div className="bg-gradient-to-br from-gray-900 to-black text-white p-10 rounded-3xl">
+    <div className="bg-gray-900 border border-gray-800 text-white p-10 rounded-3xl">
       <h3 className="text-3xl font-bold mb-3">Stay Updated</h3>
       <p className="text-gray-400 mb-8">
-        Get the latest tech articles and insights delivered to your inbox
+        Get my latest articles, tips and experiences delivered to your inbox
         weekly.
       </p>
 
@@ -32,7 +32,7 @@ const Newsletter = () => {
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             placeholder="Enter your email address"
-            className="bg-gray-800 border border-gray-700 rounded-2xl px-6 py-4 focus:outline-none focus:border-indigo-500"
+            className="bg-gray-800 border border-gray-700 rounded-2xl px-6 py-4 focus:outline-none focus:border-indigo-500 text-white"
             required
           />
           <button
